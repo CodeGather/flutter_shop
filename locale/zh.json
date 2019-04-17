@@ -1,0 +1,75 @@
+{
+    "login": {
+        "tab": {
+            "tab_phone":"手机登录",
+            "tab_account":"密码登录"
+        },
+        "login_button": "进入积噩",
+        "phone_input": "请输入手机号码",
+        "code_input": "请输入短信验证码",
+        "password_input": "请输入密码",
+        "go_password_login": "用密码登录",
+        "go_code_login": "验证码登录",
+        "code_tip": "验证码",
+        "title": "登录",
+        "pass_tip": "密码",
+        "code_error_tip": "您输入的手机号码不正确",
+        "get_code": "获取验证码",
+        "code": "收不到验证码?",
+        "forget": "忘记密码?",
+        "protocol": "首次登录将自动注册，代表您已同意《用户协议》",
+        "third_party": "其他账号登录"
+    },
+    "bottom_nav": {
+        "item_1": "首页",
+        "item_2": "发现",
+        "item_3": "购物",
+        "item_4": "我的",
+        "item_5": "分类"
+    },
+    "topics": {
+        "search": "搜索话题，综合资讯"
+    },
+    "permission": {
+        "camera": "用户未授予相机权限！"
+    },
+    "cancel": "取消",
+    "scanning_back": "用户在扫描任何内容之前使用“返回”按钮返回",
+    "nav_title_0": "组件",
+    "nav_title_1": "我的",
+    "user_title": "未登录",
+    "user_title_subheading": "登录/注册",
+    "title_my": "我的",
+    "widgetType": {
+        "regularLayout": "常规布局"
+    },
+    "common": {
+        "changeLanguage": "Switch to English",
+        "changeVersion": "更新版本",
+        "compProgress": "组件进度"
+    },
+    "common_mine_1": {
+        "cn": "中文",
+        "en": "英文",
+        "language": "选择语言",
+        "environment": "选择环境",
+        "compProgress": "组件进度",
+        "success": "切换成功",
+        "theme": "选择主题",
+        "version": "版本"
+    },
+    "mine": {
+        "loadNetwork": "网络优良,可选择加载线上文档资源",
+        "loadLocal": "网络较差时,可选择加载本地文档资源"
+    },
+    "loading": "加载中",
+    "ScrollComponents": "滚动",
+    "Common": "通用",
+    "Form": "表单",
+    "Regular": "布局",
+    "Navigator": "导航",
+    "BulletBox": "窗口",
+    "Animate": "动画",
+    "Gestures": "手势",
+    "Vision": "视觉"
+}

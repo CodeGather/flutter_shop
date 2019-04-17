@@ -1,0 +1,75 @@
+{
+    "login": {
+        "tab": {
+            "tab_phone":"手机登录",
+            "tab_account":"密码登录"
+        },
+        "login_button": "进入积噩",
+        "phone_input": "请输入手机号码",
+        "code_input": "请输入短信验证码",
+        "password_input": "请输入密码",
+        "go_password_login": "用密码登录",
+        "go_code_login": "验证码登录",
+        "code_tip": "验证码",
+        "title": "登录",
+        "pass_tip": "密码",
+        "code_error_tip": "您输入的手机号码不正确",
+        "get_code": "获取验证码",
+        "code": "收不到验证码?",
+        "forget": "忘记密码?",
+        "protocol": "首次登录将自动注册，代表您已同意《用户协议》",
+        "third_party": "其他账号登录"
+    },
+    "bottom_nav": {
+        "item_1": "首页",
+        "item_2": "发现",
+        "item_3": "购物",
+        "item_4": "我的",
+        "item_5": "分类"
+    },
+    "topics": {
+        "search": "Search topics"
+    },
+    "permission": {
+        "camera": "The user did not grant the camera permission!"
+    },
+    "cancel": "cancel",
+    "scanning_back": "User returned using the \"back\" button before scanning anything",
+    "nav_title_0": "Components",
+    "nav_title_1": "My",
+    "user_title": "Components",
+    "user_title_subheading": "Components",
+    "title_my": "My",
+    "widgetType": {
+        "regularLayout": "common layout"
+    },
+    "common": {
+        "changeLanguage": "显示中文",
+        "changeVersion": "checkVersion",
+        "compProgress": "Components Progress"
+    },
+    "common_mine_1": {
+        "cn": "CN",
+        "en": "EN",
+        "language": "Select Language",
+        "environment": "Select Environment",
+        "compProgress": "Components Progress",
+        "success": "Success To Change ",
+        "theme": "Select Theme",
+        "version": "Version"
+    },
+    "mine": {
+        "loadNetwork": "Load Network Document Resources",
+        "loadLocal": "Load Local Document Resources"
+    },
+    "loading": "Loading",
+    "ScrollComponents": "ScrollComponents",
+    "Common": "Common",
+    "Form": "Form",
+    "Regular": "Regular",
+    "Navigator": "Navigator",
+    "BulletBox": "BulletBox",
+    "Animate": "Animate",
+    "Gestures": "Gestures",
+    "Vision": "Vision"
+}

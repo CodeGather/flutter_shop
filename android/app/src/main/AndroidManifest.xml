@@ -1,0 +1,65 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    package="com.ki5k.fluttershop">
+
+    <!-- The INTERNET permission is required for development. Specifically,
+         flutter needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:remove="android:maxSdkVersion"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:remove="android:maxSdkVersion"/>
+    <uses-permission android:name="android.permission.CAMERA" tools:remove="android:maxSdkVersion"/>
+    <!-- <uses-permission android:name="android.permission.INTERNET" />                      //网络访问权限
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />         //读SD卡权限
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />        //写SD卡权限
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />              //读手机权限
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />        //开机广播,开机自启动服务(Android 4.0及以上版本接收)
+    <uses-permission android:name="android.permission.SEND_SMS"/>                       //读短信权限 
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>                    //写短信权限 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />          //获取手机精准的位置
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>         //获取手机大体的位置
+    <uses-permission android:name="android.permission.CALL_PHONE" />                    //挂断电话，打电话的权限
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />                 //读电话的记录
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />                //写电话的记录
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>         //监听外拨电话
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>            //通过WindowManager添加自定义View到窗体
+    <uses-permission android:name="android.permission.READ_SMS"/>                       //读短信数据库的权限
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />     //清理运行进程的权限
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES" />            //要求系统应用
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>               //获取包的各种数据大小(比如:缓存)
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />               //清除全部应用缓存
+    <uses-permission android:name="android.permission.GET_TASKS"/>                      //获取正在运行的应用(监听任务栈的权限) -->
+
+    <!-- io.flutter.app.FlutterApplication is an android.app.Application that
+         calls FlutterMain.startInitialization(this); in its onCreate method.
+         In most cases you can leave this as-is, but you if you want to provide
+         additional functionality it is fine to subclass or reimplement
+         FlutterApplication and put your custom class here. -->
+         <!-- android:label="flutter_shop" -->
+    <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <!-- This keeps the window background of the activity showing
+                 until Flutter renders its first frame. It can be removed if
+                 there is no splash screen (such as the default splash screen
+                 defined in @style/LaunchTheme). -->
+            <meta-data
+                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+                android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"></activity>
+        
+    </application>
+</manifest>
