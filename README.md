@@ -27,3 +27,13 @@ Could not build the precompiled application for the device.
 
 Error launching application on Sean.
 yaudeMacBook-Pro:flutter_shop yau$ 
+
+
+
+
+Runner-Bridging-Header.h
+#import "GeneratedPluginRegistrant.h"
+
+
+swift version 4.2
+
